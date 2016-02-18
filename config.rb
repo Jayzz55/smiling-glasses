@@ -116,6 +116,10 @@ set :markdown, fenced_code_blocks: true, smartypants: true, footnotes: true,
   link_attributes: { rel: 'nofollow' }, tables: true
 activate :syntax, line_numbers: false
 
+# set middleman-gh-pages to use relative assets links for standalone project.
+activate :relative_assets
+set :relative_links, true
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
