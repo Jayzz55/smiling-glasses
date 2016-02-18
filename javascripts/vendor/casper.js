@@ -3,6 +3,7 @@
  */
 
 /* globals jQuery, document */
+
 (function ($, undefined) {
     "use strict";
 
